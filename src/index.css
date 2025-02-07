@@ -90,3 +90,43 @@ input:focus {
   font-size: 2.4rem;
   font-weight: 700;
 }
+
+@media(max-width: 1199.98px) {
+  .weather {
+    gap: 1rem;
+  }
+
+  .app {
+    width: 100%;
+    gap: 2rem;
+    padding: 0;
+    border: none;
+    outline: 0;
+    outline-offset: 0;
+  }
+
+  .day {
+    background-color: #f0d2ce;
+    padding: 1rem 1rem;
+    width: 9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+  }
+}
+
+@media(max-width: 767.98px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  input {
+    padding: 1rem;
+  }
+
+  .weather {
+    overflow-x: scroll;
+  }
+}
